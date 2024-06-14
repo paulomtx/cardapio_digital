@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagens/bg.png);
+    /*descomente para aplicar a imagem se repetição*/
+    /*background-repeat: repeat;
+    background-size: cover;*/
+}
+header{
+    background-color: #1E1F22;
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin: 0px 10px;
+}
