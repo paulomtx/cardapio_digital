@@ -52,6 +52,8 @@ h2{
     width: 400px;
 }
 .boxproduto{
+    display: flex;
+    flex-direction: row;
     background-color: rgba(37, 37 ,37, 0.8);
     width:900px;
     margin: 0px auto;
@@ -59,12 +61,14 @@ h2{
     
 }
 .boximagem, .boxtexto{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     vertical-align: middle;
 }
 .boxtexto{
     width: 400px;
     text-align: start;
+    justify-content:center;
 }
 h1, h2, h3, button{
     margin: 10px 0px;
